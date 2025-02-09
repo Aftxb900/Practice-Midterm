@@ -37,14 +37,29 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <style id='wp-block-post-title-inline-css'>
 .wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title :where(a){display:inline-block;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
 </style>
+<link rel='stylesheet' id='wp-block-image-css' href='/wp-includes/blocks/image/style.min.css?ver=6.7.1' media='all' />
+<link rel='stylesheet' id='wp-block-gallery-css' href='/wp-includes/blocks/gallery/style.min.css?ver=6.7.1' media='all' />
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+</style>
+<style id='wp-block-media-text-inline-css'>
+.wp-block-media-text{box-sizing:border-box;
+  /*!rtl:begin:ignore*/direction:ltr;
+  /*!rtl:end:ignore*/display:grid;grid-template-columns:50% 1fr;grid-template-rows:auto}.wp-block-media-text.has-media-on-the-right{grid-template-columns:1fr 50%}.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__media{align-self:start}.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__media,.wp-block-media-text>.wp-block-media-text__content,.wp-block-media-text>.wp-block-media-text__media{align-self:center}.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__media{align-self:end}.wp-block-media-text>.wp-block-media-text__media{
+  /*!rtl:begin:ignore*/grid-column:1;grid-row:1;
+  /*!rtl:end:ignore*/margin:0}.wp-block-media-text>.wp-block-media-text__content{direction:ltr;
+  /*!rtl:begin:ignore*/grid-column:2;grid-row:1;
+  /*!rtl:end:ignore*/padding:0 8%;word-break:break-word}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__media{
+  /*!rtl:begin:ignore*/grid-column:2;grid-row:1
+  /*!rtl:end:ignore*/}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__content{
+  /*!rtl:begin:ignore*/grid-column:1;grid-row:1
+  /*!rtl:end:ignore*/}.wp-block-media-text__media a{display:inline-block}.wp-block-media-text__media img,.wp-block-media-text__media video{height:auto;max-width:unset;vertical-align:middle;width:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media{background-size:cover;height:100%;min-height:250px}.wp-block-media-text.is-image-fill>.wp-block-media-text__media>a{display:block;height:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media img{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border:0}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media{height:100%;min-height:250px;position:relative}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media>a{display:block;height:100%}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media img{height:100%;object-fit:cover;position:absolute;width:100%}@media (max-width:600px){.wp-block-media-text.is-stacked-on-mobile{grid-template-columns:100%!important}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__media{grid-column:1;grid-row:1}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content{grid-column:1;grid-row:2}}
+</style>
 <style id='wp-block-post-content-inline-css'>
 .wp-block-post-content{display:flow-root}
 </style>
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{box-sizing:border-box}
-</style>
-<style id='wp-block-paragraph-inline-css'>
-.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
 </style>
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
@@ -103,7 +118,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
 </style>
 <style id='core-block-supports-inline-css'>
-.wp-container-core-navigation-is-layout-1{justify-content:flex-end;}.wp-container-core-group-is-layout-1{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-2{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-2{flex-direction:column;align-items:flex-start;}.wp-container-core-navigation-is-layout-3{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-11{gap:var(--wp--preset--spacing--80);justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-12{justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-13{gap:var(--wp--preset--spacing--20);justify-content:space-between;}
+.wp-container-core-navigation-is-layout-1{justify-content:flex-end;}.wp-container-core-group-is-layout-1{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-2{flex-wrap:nowrap;justify-content:space-between;}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-2{flex-direction:column;align-items:flex-start;}.wp-container-core-navigation-is-layout-3{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-11{gap:var(--wp--preset--spacing--80);justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-12{justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-13{gap:var(--wp--preset--spacing--20);justify-content:space-between;}
 </style>
 <style id='wp-block-template-skip-link-inline-css'>
 
@@ -186,7 +201,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 							<div class="wp-block-navigation__responsive-container-content" 
 				data-wp-watch="callbacks.focusFirstElement"
 			 id="modal-1-content">
-								<ul class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation"><ul class="wp-block-page-list"><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/about/">About</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/contacts/">Contacts</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click menu-item-home"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/">Home</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/posts/">Posts</a></li></ul></ul>
+								<ul class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation"><ul class="wp-block-page-list"><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/about/">ABOUT</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/contacts/">CONTACTS</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click menu-item-home"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/">HOME</a></li><li class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a class="wp-block-pages-list__item__link wp-block-navigation-item__content" href="/posts/">POSTS</a></li></ul></ul>
 							</div>
 						</div>
 					</div>
@@ -212,8 +227,32 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
-			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/sample/" target="_self" >Sample</a></h2>
-			
+			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/sample/" target="_self" >Ways People Celebrate Their Birthdays Around the World</a></h2>
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<figure class="wp-block-gallery alignleft has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img fetchpriority="high" decoding="async" width="960" height="641" src="/wp-content/uploads/2025/02/blog-text_AWFJEGJAMS-1.jpg" alt="" class="wp-image-45 size-full"/></figure><div class="wp-block-media-text__content">
+<p></p>
+</div></div>
+
+
+
+<p>Birthdays are celebrated in unique ways around the world, reflecting the cultural traditions of different countries. In India, birthdays are often celebrated with family gatherings, prayers, and a special meal. It&#8217;s common for the birthday person to receive blessings from elders, and in some regions, people mark the occasion with a &#8220;puja&#8221; (a ritual offering to gods) for good health and prosperity. The cake cutting is a central part of the celebration, followed by music and dancing.</p>
+
+
+
+<p>In Saudi Arabia, birthdays are typically private affairs, as public celebrations are not as common. However, many people still enjoy small gatherings with close family and friends. Traditional Arabic sweets and a meal are often served, and gifts are exchanged. While birthdays are not celebrated with the same fanfare as in other countries, they hold personal significance for the individual and their family.</p>
+
+
+
+<p>In the USA, birthdays are celebrated in a lively and festive manner, often with elaborate parties. Children typically have themed birthday parties, complete with decorations, games, and a large cake with candles. It&#8217;s a common tradition for the birthday person to make a wish before blowing out the candles. Adults also enjoy celebrating with friends and family, sometimes going out to dinner or hosting a party with music, dancing, and gifts.</p>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-02-05T20:55:54-05:00"><a href="/sample/">5 February 2025</a></time></div>
 		</div>
 		
@@ -221,8 +260,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
-			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/hey/" target="_self" >Hey</a></h2>
-			
+			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/hey/" target="_self" >Famous People Born on This Day</a></h2>
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<p>June 23rd has been the birthdate of many notable individuals who have left their mark on the world. Alan Turing, the father of modern computing, was born on this day. Zinedine Zidane, the legendary French footballer, also shares this birthday. Frances McDormand, an award-winning actress, was born on this day as well. Each of these figures has contributed significantly to their respective fields</p>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-02-05T20:55:45-05:00"><a href="/hey/">5 February 2025</a></time></div>
 		</div>
 		
@@ -230,9 +275,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
-			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/hello-world/" target="_self" >Hello world!</a></h2>
+			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/hello-world/" target="_self" >Unique Birthday Celebrations &amp; Superstitions</a></h2>
 			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Different cultures have unique ways of marking birthdays. In China, longevity noodles are eaten for a long life, while in Ghana, children enjoy on to, a special yam dish. Some superstitions surround birthdays as well blowing out all the candles on a cake in one breath is said to bring good luck, while in some cultures, celebrating a birthday early is considered bad luck. These traditions make birthdays a fascinating topic of cultural study.</p>
+
+
+
+<p></p>
 </div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-02-05T20:49:29-05:00"><a href="/hello-world/">5 February 2025</a></time></div>
 		</div>
@@ -302,7 +351,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 			
 			
 			<p class="has-small-font-size">
-				Designed with <a href="https://wordpress.org" rel="nofollow">WordPress</a>			</p>
+				Designed with <a href="https://en-ca.wordpress.org" rel="nofollow">WordPress</a>			</p>
 			
 		</div>
 		
